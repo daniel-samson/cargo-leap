@@ -1,0 +1,17 @@
+[package]
+name = "reserve-cargo-leap"
+version = "0.0.0"
+authors = ["Daniel Samson <danieljsamson@gmail.com>"]
+edition = "2018"
+edition = "2018"
+description = "A cargo subcommand for generating new projects."
+repository = "https://github.com/daniel-samson/cargo-leap.git"
+readme = "README.md"
+documentation = "https://docs.rs/cargo-leap"
+homepage = "https://leap.rs"
+license = "Apache-2.0"
+keywords = ["web", "framework"]
+categories = ["web-programming"]
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
