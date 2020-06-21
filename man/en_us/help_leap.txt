@@ -1,0 +1,7 @@
+Leap command line tool
+
+USAGE:
+	cargo leap [SUBCOMMAND]
+
+SUBCOMMANDS:
+	new         creates a new project
