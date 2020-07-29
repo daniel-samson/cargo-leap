@@ -1,0 +1,22 @@
+name: Security Audit
+
+on:
+  push:
+    branches: [develop ]
+  pull_request:
+    branches: [ develop ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install Cargo Audit
+      run: cargo install --force cargo-audit
+    - name: Generate new lockfile
+      run: cargo generate-lockfile
+    - name: Run Security Audit
+      run: cargo audit
+
