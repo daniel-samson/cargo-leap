@@ -7,6 +7,8 @@ Cargo Leap
 [![codecov](https://codecov.io/gh/daniel-samson/cargo-leap/branch/master/graph/badge.svg)](https://codecov.io/gh/daniel-samson/cargo-leap)
 [![book](https://img.shields.io/badge/Book-Master-blue)](https://leap.rs/book/version/master/introduction/)
 ![Security Audit](https://github.com/daniel-samson/cargo-leap/workflows/Security%20Audit/badge.svg)
+[![Build Status](https://travis-ci.com/daniel-samson/cargo-leap.svg?branch=develop)](https://travis-ci.com/daniel-samson/cargo-leap)
+[![Build status](https://ci.appveyor.com/api/projects/status/lq7fcic8xmnl0jju/branch/develop?svg=true)](https://ci.appveyor.com/project/daniel-samson/cargo-leap/branch/develop)
 
 Leap pass the setup for your project and craft applications quickly with ease. Cargo leap is a cargo sub-command for generating new projects from crates which contain a leap directory.
 
