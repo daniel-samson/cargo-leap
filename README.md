@@ -12,7 +12,7 @@ Leap pass the setup for your project and craft applications quickly with ease. C
 Project Goals:
 - Provide a means to create project template
 - Download any crate from crates.io and read leap directory
-- Provide usuful features as they are needed.
+- Provide useful features as they are needed.
 
 
 ### Getting Leap
