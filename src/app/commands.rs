@@ -48,7 +48,7 @@ pub fn leap_new(template_crate_name: &str, project_name: &str) {
     if !Path::exists(extracted_path.as_ref()) {
         extract(
             cache_path.as_path(),
-            dir.cache_dir().join(crate_name.clone()).as_path(),
+            dir.cache_dir().join(crate_name).as_path(),
         )
         .expect("Unable to extract crate");
     }
