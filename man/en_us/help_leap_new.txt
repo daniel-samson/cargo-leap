@@ -1,0 +1,8 @@
+Create a new leap project
+
+USAGE:
+	cargo leap new <project-template> <project name>
+
+ARGUMENTS:
+	<project template>      The name of the on crates.io
+	<project name>      The name of the project and the directory
