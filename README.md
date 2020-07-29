@@ -7,7 +7,7 @@ Cargo Leap
 [![codecov](https://codecov.io/gh/daniel-samson/cargo-leap/branch/master/graph/badge.svg)](https://codecov.io/gh/daniel-samson/cargo-leap)
 [![book](https://img.shields.io/badge/Book-Master-blue)](https://leap.rs/book/version/master/introduction/)
 
-Leap pass the setup for your project and craft applications quickly with ease. Cargo leap is a cargo subcommand for generating new projects from crates which contain a leap directory.
+Leap pass the setup for your project and craft applications quickly with ease. Cargo leap is a cargo sub-command for generating new projects from crates which contain a leap directory.
 
 Project Goals:
 - Provide a means to create project template
@@ -17,11 +17,11 @@ Project Goals:
 
 ### Getting Leap
 
-You can user cargo install to get leap:
+You can use cargo install to get leap:
 ```bash
 # cargo install cargo-leap
 ```
-Please ensure that you have added your cargo binary directory to you PATH environement variable.
+Please ensure that you have added your cargo binary directory to you PATH environment variable.
 
 
 ### Usage
