@@ -54,7 +54,7 @@ pub fn leap_new(template_crate_name: &str, project_name: &str) {
     }
 
     log::info!("Looking for Leap directory");
-    let leap_path = extracted_path.clone().join("leap");
+    let leap_path = extracted_path.join("leap");
     if !Path::exists(leap_path.as_ref()) {
         println!("The reference crate does not appear to have a leap template");
         return;
