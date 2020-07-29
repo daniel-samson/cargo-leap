@@ -1,0 +1,22 @@
+name: Continuous Integration Tests
+
+on:
+  push:
+    branches: [ develop, release*, feature*, hotfix* ]
+  pull_request:
+    branches: [ develop, release*, feature*, hotfix* ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: rust-clippy-check
+      uses: actions-rs/clippy-check@v1.0.5
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        args: --all-targets --all-features -- -D warnings
+    - name: Run tests
+      run: cargo test --verbose
