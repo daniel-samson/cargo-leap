@@ -1,0 +1,20 @@
+name: Dependencies
+
+on:
+  push:
+    branches: [ develop ]
+  pull_request:
+    branches: [ develop, release* ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install Cargo Dependency Audit
+      run: cargo install --force cargo-outdated
+    - name: Run Cargo Dependency Audit
+      run: cargo outdated
+
