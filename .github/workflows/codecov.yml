@@ -20,7 +20,8 @@ jobs:
         with:
           toolchain: stable
           override: true
-
+      - name: Run tests
+        run: cargo test --verbose
       - name: Run cargo-tarpaulin
         uses: actions-rs/tarpaulin@v0.1
         with:
